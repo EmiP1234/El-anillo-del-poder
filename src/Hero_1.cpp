@@ -39,7 +39,7 @@ void Hero_1::update()
         _xtexture=_xtexture*70.58;
         _sprite_hero.setScale(sf::Vector2f(1.5,1.5));
         _sprite_hero.setTextureRect(sf::IntRect(_xtexture,782,_width_texture,88));
-        _sprite_hero.move(4,0);
+        _sprite_hero.move(30,0);
         _state=STATES::STILL_RIGHT;
 
         break;
@@ -49,7 +49,7 @@ void Hero_1::update()
         _xtexture=_xtexture*70.58;
         _sprite_hero.setScale(sf::Vector2f(-1.5,1.5));
         _sprite_hero.setTextureRect(sf::IntRect(_xtexture,782,_width_texture,88));
-        _sprite_hero.move(-4,0);
+        _sprite_hero.move(-30,0);
         _state=STATES::STILL_LEFT;
 
         break;

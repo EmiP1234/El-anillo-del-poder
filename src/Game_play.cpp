@@ -16,6 +16,7 @@ void Game_play::draw(sf::RenderWindow& window)
 
     window.draw(BG.getDraw());
     window.draw(Hro.getDraw());
+    window.draw(Villano_1.getDraw());
 }
 void Game_play::cmd()
 {
@@ -42,7 +43,7 @@ void Game_play::update(sf::RenderTarget& window)
     if(_states==STATES_GAME_PLAY::ACTION)
     {
         Hro.update();
-
+        Villano_1.Update(Hro.getPosition());
     }
 
 
