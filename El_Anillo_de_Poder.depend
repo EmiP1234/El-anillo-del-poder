@@ -1959,7 +1959,7 @@
 	<SFML/Graphics/Drawable.hpp>
 	<SFML/Window/GlResource.hpp>
 
-1728601856 d:\utn\el anillo de poder\include\game_play.h
+1729002446 d:\utn\el anillo de poder\include\game_play.h
 	<SFML/Graphics.hpp>
 	"Hero_1.h"
 	"Background.h"
@@ -1975,8 +1975,10 @@
 1728086192 source:d:\utn\el anillo de poder\src\background.cpp
 	"Background.h"
 
-1728606850 source:d:\utn\el anillo de poder\src\game_play.cpp
+1729002446 source:d:\utn\el anillo de poder\src\game_play.cpp
 	"Game_play.h"
+	<cstdlib>
+	<ctime>
 
 1728605530 source:d:\utn\el anillo de poder\src\hero_1.cpp
 	"Hero_1.h"
@@ -1989,10 +1991,10 @@
 	<SFML/Graphics.hpp>
 	<iostream>
 
-1728606637 d:\utn\el anillo de poder\include\mago.h
+1729001640 d:\utn\el anillo de poder\include\mago.h
 	<SFML/Graphics.hpp>
 	<iostream>
 
-1728605742 source:d:\utn\el anillo de poder\src\mago.cpp
+1728763136 source:d:\utn\el anillo de poder\src\mago.cpp
 	"Mago.h"
 
